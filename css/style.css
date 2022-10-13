@@ -29,8 +29,17 @@ body {
    font-family: 'Open Sans', arial, sans-serif;
    font-size: 14px;
    line-height: 1;
+   padding: 6px;
+   width: auto;
    color: #373737;
    background: #f7f7f7;
+   /* width: 100vh; */
+   background: url(../img/background3.png);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   -moz-background-size: 100%;
+   -webkit-background-size: 100%;
+   -o-background-size: 100%;
 }
 /* добавим очистку потока для всех контейнеров, внутри которых задано обтекание дочерних элементов */
 header:after, .container:after, footer:after, .widget-posts-list li:after, #subscribe:after {
@@ -403,7 +412,7 @@ footer {
 }
 
 
-}
+
 /*.image {
    width: 77.777777;
    float: right;
@@ -552,9 +561,9 @@ video {
 * {
    box-sizing: border-box;
 }
-body {
+/* body {
    background: #f69a73;
-}
+} */
 .decor {
    position: relative;
    max-width: 400px;
